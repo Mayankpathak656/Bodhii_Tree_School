@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery of The Bodhii Tree School - See our children in action through photos of activities, events, and daily life at our preschool.">
+    <title>Gallery - The Bodhii Tree School</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="Images/LOGO.PNG" alt="The Bodhii Tree School Logo" class="logo-img">
+                <span>The Bodhii Tree School</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link">Admissions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="classes.html" class="nav-link">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="educators.html" class="nav-link">Educators</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Gallery</h1>
+            <p>Capturing precious moments of learning, laughter, and growth</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="activities">Learning Activities</button>
+                <button class="filter-btn" data-filter="art">Art & Crafts</button>
+                <button class="filter-btn" data-filter="music">Music & Dance</button>
+                <button class="filter-btn" data-filter="play">Play Time</button>
+                <button class="filter-btn" data-filter="events">Special Events</button>
+                <button class="filter-btn" data-filter="outdoor">Outdoor Fun</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery-items">
+                <!-- Learning Activities -->
+                <div class="gallery-item" data-category="activities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-book"></i>
+                            <p>Story Time</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Story Time</h3>
+                            <p>Children enjoying interactive storytelling sessions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="activities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-calculator"></i>
+                            <p>Math Fun</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Math Activities</h3>
+                            <p>Learning numbers through fun games and activities</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="activities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-flask"></i>
+                            <p>Science Exploration</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Science Experiments</h3>
+                            <p>Hands-on learning with simple science experiments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Art & Crafts -->
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                            <p>Painting</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Creative Painting</h3>
+                            <p>Young artists expressing their creativity</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cut"></i>
+                            <p>Craft Making</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Craft Activities</h3>
+                            <p>Creating beautiful crafts with various materials</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-palette"></i>
+                            <p>Color Mixing</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Color Exploration</h3>
+                            <p>Learning about colors through mixing and matching</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Music & Dance -->
+                <div class="gallery-item" data-category="music">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-music"></i>
+                            <p>Music Class</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Music Sessions</h3>
+                            <p>Learning rhythm and melody through instruments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="music">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-child"></i>
+                            <p>Dance Performance</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Dance Classes</h3>
+                            <p>Expressing joy through movement and dance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="music">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-microphone"></i>
+                            <p>Singing</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Singing Sessions</h3>
+                            <p>Learning songs and developing vocal skills</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Play Time -->
+                <div class="gallery-item" data-category="play">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                            <p>Indoor Games</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Indoor Play</h3>
+                            <p>Fun games and activities in our play area</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="play">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <p>Puzzle Time</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Puzzle Activities</h3>
+                            <p>Building problem-solving skills through puzzles</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="play">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cubes"></i>
+                            <p>Block Building</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Block Play</h3>
+                            <p>Creative construction with building blocks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Events -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-birthday-cake"></i>
+                            <p>Birthday Celebrations</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Birthday Parties</h3>
+                            <p>Celebrating special days with friends</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                            <p>Graduation Day</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Graduation Ceremony</h3>
+                            <p>Celebrating achievements and milestones</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gift"></i>
+                            <p>Festival Celebrations</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Festival Fun</h3>
+                            <p>Celebrating various festivals and traditions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Outdoor Fun -->
+                <div class="gallery-item" data-category="outdoor">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-seedling"></i>
+                            <p>Garden Activities</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Garden Club</h3>
+                            <p>Learning about nature through gardening</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="outdoor">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-running"></i>
+                            <p>Playground Fun</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Playground Activities</h3>
+                            <p>Physical activities and outdoor games</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="outdoor">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-bus"></i>
+                            <p>Field Trips</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Educational Trips</h3>
+                            <p>Learning beyond the classroom walls</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="activities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-utensils"></i>
+                            <p>Cooking Class</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cooking Activities</h3>
+                            <p>Learning life skills through simple cooking</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="art">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-hand-paper"></i>
+                            <p>Hand Printing</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Hand Art</h3>
+                            <p>Creative hand printing and finger painting</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-star"></i>
+                            <p>Annual Day</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Annual Day Performance</h3>
+                            <p>Showcasing talents and achievements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Stats -->
+    <section class="photo-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Moments</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Activities Weekly</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Special Events</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Smiles Captured</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Want to See More?</h2>
+                <p>Schedule a visit to experience the wonder of our learning environment firsthand!</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Schedule Visit</a>
+                    <a href="admissions.html" class="btn btn-secondary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="Images/LOGO.PNG" alt="The Bodhii Tree School Logo" class="footer-logo-img">
+                        <span>The Bodhii Tree School</span>
+                    </div>
+                    <p>Nurturing young minds with love, creativity, and endless possibilities.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="classes.html">Playgroup</a></li>
+                        <li><a href="classes.html">Nursery</a></li>
+                        <li><a href="classes.html">LKG</a></li>
+                        <li><a href="classes.html">UKG</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Learning Lane, Wonderland City</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@wonderlandplayschool.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Bodhii Tree School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
